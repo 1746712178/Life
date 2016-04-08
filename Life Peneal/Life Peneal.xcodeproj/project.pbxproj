@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		355CEEDA1CB758F300F61AB9 /* QWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CEED91CB758F300F61AB9 /* QWTableViewCell.m */; };
+		355CEEDF1CB7623600F61AB9 /* QWBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CEEDE1CB7623600F61AB9 /* QWBaseModel.m */; };
+		355CEEE81CB781DD00F61AB9 /* QWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CEEE71CB781DD00F61AB9 /* QWCollectionViewCell.m */; };
+		355CEEEB1CB7820E00F61AB9 /* QWCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CEEEA1CB7820E00F61AB9 /* QWCollectionView.m */; };
+		357C339B1CB7888200B7C562 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 357C339A1CB7888200B7C562 /* 0.png */; };
+		357C339D1CB791BC00B7C562 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 357C339C1CB791BC00B7C562 /* 1.png */; };
+		35B3EFDA1CB654FE002CB561 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3EFD91CB654FE002CB561 /* main.m */; };
+		35B3EFDD1CB654FE002CB561 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3EFDC1CB654FE002CB561 /* AppDelegate.m */; };
+		35B3EFE31CB654FE002CB561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B3EFE11CB654FE002CB561 /* Main.storyboard */; };
+		35B3EFE51CB654FE002CB561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B3EFE41CB654FE002CB561 /* Assets.xcassets */; };
+		35B3EFF31CB654FE002CB561 /* Life_PenealTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3EFF21CB654FE002CB561 /* Life_PenealTests.m */; };
+		35B3EFFE1CB654FE002CB561 /* Life_PenealUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3EFFD1CB654FE002CB561 /* Life_PenealUITests.m */; };
+		35B3F0261CB655EF002CB561 /* QWBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3F00F1CB655EF002CB561 /* QWBaseNavigationViewController.m */; };
+		35B3F0271CB655EF002CB561 /* QWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3F0111CB655EF002CB561 /* QWBaseViewController.m */; };
+		35B3F0281CB655EF002CB561 /* QWActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3F0161CB655EF002CB561 /* QWActivityViewController.m */; };
+		35B3F0291CB655EF002CB561 /* QWExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3F0191CB655EF002CB561 /* QWExploreViewController.m */; };
+		35B3F02A1CB655EF002CB561 /* QWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3F01C1CB655EF002CB561 /* QWLoginViewController.m */; };
+		35B3F02B1CB655EF002CB561 /* QWMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3F01F1CB655EF002CB561 /* QWMainTabBarViewController.m */; };
+		35B3F02C1CB655EF002CB561 /* QWMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3F0221CB655EF002CB561 /* QWMyViewController.m */; };
+		35B3F02D1CB655EF002CB561 /* QWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3F0251CB655EF002CB561 /* QWHomeViewController.m */; };
+		35B3F0341CB65E0B002CB561 /* UIColor+QWAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3F0331CB65E0B002CB561 /* UIColor+QWAddition.m */; };
+		6FFCA93B5DDA6F2518F45227 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BAE4B5086F97A06102520D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35B3EFEF1CB654FE002CB561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35B3EFCD1CB654FE002CB561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35B3EFD41CB654FE002CB561;
+			remoteInfo = "Life Peneal";
+		};
+		35B3EFFA1CB654FE002CB561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35B3EFCD1CB654FE002CB561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35B3EFD41CB654FE002CB561;
+			remoteInfo = "Life Peneal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		355CEED81CB758F300F61AB9 /* QWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWTableViewCell.h; sourceTree = "<group>"; };
+		355CEED91CB758F300F61AB9 /* QWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWTableViewCell.m; sourceTree = "<group>"; };
+		355CEEDD1CB7623600F61AB9 /* QWBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWBaseModel.h; sourceTree = "<group>"; };
+		355CEEDE1CB7623600F61AB9 /* QWBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWBaseModel.m; sourceTree = "<group>"; };
+		355CEEE11CB763BD00F61AB9 /* QWAPPMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QWAPPMacro.h; sourceTree = "<group>"; };
+		355CEEE61CB781DD00F61AB9 /* QWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWCollectionViewCell.h; sourceTree = "<group>"; };
+		355CEEE71CB781DD00F61AB9 /* QWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWCollectionViewCell.m; sourceTree = "<group>"; };
+		355CEEE91CB7820E00F61AB9 /* QWCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWCollectionView.h; sourceTree = "<group>"; };
+		355CEEEA1CB7820E00F61AB9 /* QWCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWCollectionView.m; sourceTree = "<group>"; };
+		357C339A1CB7888200B7C562 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		357C339C1CB791BC00B7C562 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		35B3EFD51CB654FE002CB561 /* Life Peneal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Peneal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B3EFD91CB654FE002CB561 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35B3EFDB1CB654FE002CB561 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35B3EFDC1CB654FE002CB561 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35B3EFE21CB654FE002CB561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35B3EFE41CB654FE002CB561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35B3EFE91CB654FE002CB561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35B3EFEE1CB654FE002CB561 /* Life PenealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life PenealTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B3EFF21CB654FE002CB561 /* Life_PenealTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Life_PenealTests.m; sourceTree = "<group>"; };
+		35B3EFF41CB654FE002CB561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35B3EFF91CB654FE002CB561 /* Life PenealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life PenealUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B3EFFD1CB654FE002CB561 /* Life_PenealUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Life_PenealUITests.m; sourceTree = "<group>"; };
+		35B3EFFF1CB654FE002CB561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35B3F00E1CB655EF002CB561 /* QWBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWBaseNavigationViewController.h; sourceTree = "<group>"; };
+		35B3F00F1CB655EF002CB561 /* QWBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWBaseNavigationViewController.m; sourceTree = "<group>"; };
+		35B3F0101CB655EF002CB561 /* QWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWBaseViewController.h; sourceTree = "<group>"; };
+		35B3F0111CB655EF002CB561 /* QWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWBaseViewController.m; sourceTree = "<group>"; };
+		35B3F0151CB655EF002CB561 /* QWActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWActivityViewController.h; sourceTree = "<group>"; };
+		35B3F0161CB655EF002CB561 /* QWActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWActivityViewController.m; sourceTree = "<group>"; };
+		35B3F0181CB655EF002CB561 /* QWExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWExploreViewController.h; sourceTree = "<group>"; };
+		35B3F0191CB655EF002CB561 /* QWExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWExploreViewController.m; sourceTree = "<group>"; };
+		35B3F01B1CB655EF002CB561 /* QWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWLoginViewController.h; sourceTree = "<group>"; };
+		35B3F01C1CB655EF002CB561 /* QWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWLoginViewController.m; sourceTree = "<group>"; };
+		35B3F01E1CB655EF002CB561 /* QWMainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWMainTabBarViewController.h; sourceTree = "<group>"; };
+		35B3F01F1CB655EF002CB561 /* QWMainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWMainTabBarViewController.m; sourceTree = "<group>"; };
+		35B3F0211CB655EF002CB561 /* QWMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWMyViewController.h; sourceTree = "<group>"; };
+		35B3F0221CB655EF002CB561 /* QWMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWMyViewController.m; sourceTree = "<group>"; };
+		35B3F0241CB655EF002CB561 /* QWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWHomeViewController.h; sourceTree = "<group>"; };
+		35B3F0251CB655EF002CB561 /* QWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWHomeViewController.m; sourceTree = "<group>"; };
+		35B3F0301CB65D50002CB561 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		35B3F0321CB65E0B002CB561 /* UIColor+QWAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+QWAddition.h"; sourceTree = "<group>"; };
+		35B3F0331CB65E0B002CB561 /* UIColor+QWAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QWAddition.m"; sourceTree = "<group>"; };
+		7B2DA850749640DD8D4FB386 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A7BAE4B5086F97A06102520D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5AC01917CAA46198FC99585 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35B3EFD21CB654FE002CB561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFCA93B5DDA6F2518F45227 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B3EFEB1CB654FE002CB561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B3EFF61CB654FE002CB561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		355CEED71CB7543500F61AB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				355CEED81CB758F300F61AB9 /* QWTableViewCell.h */,
+				355CEED91CB758F300F61AB9 /* QWTableViewCell.m */,
+				355CEEE51CB7817D00F61AB9 /* Collection View */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		355CEEDB1CB761F000F61AB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				355CEEDC1CB7621100F61AB9 /* BaseModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		355CEEDC1CB7621100F61AB9 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				355CEEDD1CB7623600F61AB9 /* QWBaseModel.h */,
+				355CEEDE1CB7623600F61AB9 /* QWBaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		355CEEE01CB7638100F61AB9 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				355CEEE11CB763BD00F61AB9 /* QWAPPMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		355CEEE51CB7817D00F61AB9 /* Collection View */ = {
+			isa = PBXGroup;
+			children = (
+				355CEEE91CB7820E00F61AB9 /* QWCollectionView.h */,
+				355CEEEA1CB7820E00F61AB9 /* QWCollectionView.m */,
+				355CEEE61CB781DD00F61AB9 /* QWCollectionViewCell.h */,
+				355CEEE71CB781DD00F61AB9 /* QWCollectionViewCell.m */,
+			);
+			name = "Collection View";
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		35B3EFCC1CB654FE002CB561 = {
+			isa = PBXGroup;
+			children = (
+				35B3EFD71CB654FE002CB561 /* Life Peneal */,
+				35B3EFF11CB654FE002CB561 /* Life PenealTests */,
+				35B3EFFC1CB654FE002CB561 /* Life PenealUITests */,
+				35B3EFD61CB654FE002CB561 /* Products */,
+				E9E2F71906C7690709BE7DDC /* Pods */,
+				ACA0599005E3E9CB55D320E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		35B3EFD61CB654FE002CB561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35B3EFD51CB654FE002CB561 /* Life Peneal.app */,
+				35B3EFEE1CB654FE002CB561 /* Life PenealTests.xctest */,
+				35B3EFF91CB654FE002CB561 /* Life PenealUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35B3EFD71CB654FE002CB561 /* Life Peneal */ = {
+			isa = PBXGroup;
+			children = (
+				35B3F02E1CB656EB002CB561 /* AppDelegate */,
+				35B3F0121CB655EF002CB561 /* Class */,
+				35B3F00D1CB655EF002CB561 /* BaseClass */,
+				355CEED71CB7543500F61AB9 /* View */,
+				355CEEDB1CB761F000F61AB9 /* Model */,
+				35B3F0311CB65DA2002CB561 /* Categary */,
+				355CEEE01CB7638100F61AB9 /* Macro */,
+				35B3F02F1CB65752002CB561 /* Resource */,
+				35B3EFD81CB654FE002CB561 /* Supporting Files */,
+			);
+			path = "Life Peneal";
+			sourceTree = "<group>";
+		};
+		35B3EFD81CB654FE002CB561 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35B3EFD91CB654FE002CB561 /* main.m */,
+				35B3F0301CB65D50002CB561 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35B3EFF11CB654FE002CB561 /* Life PenealTests */ = {
+			isa = PBXGroup;
+			children = (
+				35B3EFF21CB654FE002CB561 /* Life_PenealTests.m */,
+				35B3EFF41CB654FE002CB561 /* Info.plist */,
+			);
+			path = "Life PenealTests";
+			sourceTree = "<group>";
+		};
+		35B3EFFC1CB654FE002CB561 /* Life PenealUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35B3EFFD1CB654FE002CB561 /* Life_PenealUITests.m */,
+				35B3EFFF1CB654FE002CB561 /* Info.plist */,
+			);
+			path = "Life PenealUITests";
+			sourceTree = "<group>";
+		};
+		35B3F00D1CB655EF002CB561 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				35B3F00E1CB655EF002CB561 /* QWBaseNavigationViewController.h */,
+				35B3F00F1CB655EF002CB561 /* QWBaseNavigationViewController.m */,
+				35B3F0101CB655EF002CB561 /* QWBaseViewController.h */,
+				35B3F0111CB655EF002CB561 /* QWBaseViewController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		35B3F0121CB655EF002CB561 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				35B3F0131CB655EF002CB561 /* Geneal */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		35B3F0131CB655EF002CB561 /* Geneal */ = {
+			isa = PBXGroup;
+			children = (
+				35B3F01D1CB655EF002CB561 /* Main */,
+				35B3F01A1CB655EF002CB561 /* Login */,
+				35B3F0231CB655EF002CB561 /* Home */,
+				35B3F0171CB655EF002CB561 /* Explore */,
+				35B3F0141CB655EF002CB561 /* Activity */,
+				35B3F0201CB655EF002CB561 /* My */,
+			);
+			path = Geneal;
+			sourceTree = "<group>";
+		};
+		35B3F0141CB655EF002CB561 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				35B3F0151CB655EF002CB561 /* QWActivityViewController.h */,
+				35B3F0161CB655EF002CB561 /* QWActivityViewController.m */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		35B3F0171CB655EF002CB561 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				35B3F0181CB655EF002CB561 /* QWExploreViewController.h */,
+				35B3F0191CB655EF002CB561 /* QWExploreViewController.m */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		35B3F01A1CB655EF002CB561 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				35B3F01B1CB655EF002CB561 /* QWLoginViewController.h */,
+				35B3F01C1CB655EF002CB561 /* QWLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		35B3F01D1CB655EF002CB561 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				35B3EFE11CB654FE002CB561 /* Main.storyboard */,
+				35B3F01E1CB655EF002CB561 /* QWMainTabBarViewController.h */,
+				35B3F01F1CB655EF002CB561 /* QWMainTabBarViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		35B3F0201CB655EF002CB561 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				35B3F0211CB655EF002CB561 /* QWMyViewController.h */,
+				35B3F0221CB655EF002CB561 /* QWMyViewController.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		35B3F0231CB655EF002CB561 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				35B3F0241CB655EF002CB561 /* QWHomeViewController.h */,
+				35B3F0251CB655EF002CB561 /* QWHomeViewController.m */,
+			);
+			name = Home;
+			path = Selected;
+			sourceTree = "<group>";
+		};
+		35B3F02E1CB656EB002CB561 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				357C339A1CB7888200B7C562 /* 0.png */,
+				357C339C1CB791BC00B7C562 /* 1.png */,
+				35B3EFDB1CB654FE002CB561 /* AppDelegate.h */,
+				35B3EFDC1CB654FE002CB561 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		35B3F02F1CB65752002CB561 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				35B3EFE41CB654FE002CB561 /* Assets.xcassets */,
+				35B3EFE91CB654FE002CB561 /* Info.plist */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		35B3F0311CB65DA2002CB561 /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				35B3F0321CB65E0B002CB561 /* UIColor+QWAddition.h */,
+				35B3F0331CB65E0B002CB561 /* UIColor+QWAddition.m */,
+			);
+			path = Categary;
+			sourceTree = "<group>";
+		};
+		ACA0599005E3E9CB55D320E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7BAE4B5086F97A06102520D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9E2F71906C7690709BE7DDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B2DA850749640DD8D4FB386 /* Pods.debug.xcconfig */,
+				D5AC01917CAA46198FC99585 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35B3EFD41CB654FE002CB561 /* Life Peneal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35B3F0021CB654FE002CB561 /* Build configuration list for PBXNativeTarget "Life Peneal" */;
+			buildPhases = (
+				1179781CACA92E80BDB6210F /* Check Pods Manifest.lock */,
+				35B3EFD11CB654FE002CB561 /* Sources */,
+				35B3EFD21CB654FE002CB561 /* Frameworks */,
+				35B3EFD31CB654FE002CB561 /* Resources */,
+				9B09745537DA2971E563A10F /* Embed Pods Frameworks */,
+				1246160389822CC4A3C815FF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Life Peneal";
+			productName = "Life Peneal";
+			productReference = 35B3EFD51CB654FE002CB561 /* Life Peneal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35B3EFED1CB654FE002CB561 /* Life PenealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35B3F0051CB654FE002CB561 /* Build configuration list for PBXNativeTarget "Life PenealTests" */;
+			buildPhases = (
+				35B3EFEA1CB654FE002CB561 /* Sources */,
+				35B3EFEB1CB654FE002CB561 /* Frameworks */,
+				35B3EFEC1CB654FE002CB561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35B3EFF01CB654FE002CB561 /* PBXTargetDependency */,
+			);
+			name = "Life PenealTests";
+			productName = "Life PenealTests";
+			productReference = 35B3EFEE1CB654FE002CB561 /* Life PenealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35B3EFF81CB654FE002CB561 /* Life PenealUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35B3F0081CB654FE002CB561 /* Build configuration list for PBXNativeTarget "Life PenealUITests" */;
+			buildPhases = (
+				35B3EFF51CB654FE002CB561 /* Sources */,
+				35B3EFF61CB654FE002CB561 /* Frameworks */,
+				35B3EFF71CB654FE002CB561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35B3EFFB1CB654FE002CB561 /* PBXTargetDependency */,
+			);
+			name = "Life PenealUITests";
+			productName = "Life PenealUITests";
+			productReference = 35B3EFF91CB654FE002CB561 /* Life PenealUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35B3EFCD1CB654FE002CB561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QW;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Wxl;
+				TargetAttributes = {
+					35B3EFD41CB654FE002CB561 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					35B3EFED1CB654FE002CB561 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 35B3EFD41CB654FE002CB561;
+					};
+					35B3EFF81CB654FE002CB561 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 35B3EFD41CB654FE002CB561;
+					};
+				};
+			};
+			buildConfigurationList = 35B3EFD01CB654FE002CB561 /* Build configuration list for PBXProject "Life Peneal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35B3EFCC1CB654FE002CB561;
+			productRefGroup = 35B3EFD61CB654FE002CB561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35B3EFD41CB654FE002CB561 /* Life Peneal */,
+				35B3EFED1CB654FE002CB561 /* Life PenealTests */,
+				35B3EFF81CB654FE002CB561 /* Life PenealUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35B3EFD31CB654FE002CB561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357C339B1CB7888200B7C562 /* 0.png in Resources */,
+				35B3EFE51CB654FE002CB561 /* Assets.xcassets in Resources */,
+				35B3EFE31CB654FE002CB561 /* Main.storyboard in Resources */,
+				357C339D1CB791BC00B7C562 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B3EFEC1CB654FE002CB561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B3EFF71CB654FE002CB561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1179781CACA92E80BDB6210F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1246160389822CC4A3C815FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B09745537DA2971E563A10F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35B3EFD11CB654FE002CB561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B3F0291CB655EF002CB561 /* QWExploreViewController.m in Sources */,
+				355CEEDF1CB7623600F61AB9 /* QWBaseModel.m in Sources */,
+				35B3EFDD1CB654FE002CB561 /* AppDelegate.m in Sources */,
+				35B3F02A1CB655EF002CB561 /* QWLoginViewController.m in Sources */,
+				35B3EFDA1CB654FE002CB561 /* main.m in Sources */,
+				35B3F0281CB655EF002CB561 /* QWActivityViewController.m in Sources */,
+				35B3F0341CB65E0B002CB561 /* UIColor+QWAddition.m in Sources */,
+				35B3F0261CB655EF002CB561 /* QWBaseNavigationViewController.m in Sources */,
+				355CEEEB1CB7820E00F61AB9 /* QWCollectionView.m in Sources */,
+				355CEEDA1CB758F300F61AB9 /* QWTableViewCell.m in Sources */,
+				35B3F02C1CB655EF002CB561 /* QWMyViewController.m in Sources */,
+				355CEEE81CB781DD00F61AB9 /* QWCollectionViewCell.m in Sources */,
+				35B3F02D1CB655EF002CB561 /* QWHomeViewController.m in Sources */,
+				35B3F0271CB655EF002CB561 /* QWBaseViewController.m in Sources */,
+				35B3F02B1CB655EF002CB561 /* QWMainTabBarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B3EFEA1CB654FE002CB561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B3EFF31CB654FE002CB561 /* Life_PenealTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B3EFF51CB654FE002CB561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B3EFFE1CB654FE002CB561 /* Life_PenealUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35B3EFF01CB654FE002CB561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35B3EFD41CB654FE002CB561 /* Life Peneal */;
+			targetProxy = 35B3EFEF1CB654FE002CB561 /* PBXContainerItemProxy */;
+		};
+		35B3EFFB1CB654FE002CB561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35B3EFD41CB654FE002CB561 /* Life Peneal */;
+			targetProxy = 35B3EFFA1CB654FE002CB561 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35B3EFE11CB654FE002CB561 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35B3EFE21CB654FE002CB561 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35B3F0001CB654FE002CB561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35B3F0011CB654FE002CB561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35B3F0031CB654FE002CB561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2DA850749640DD8D4FB386 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Life Peneal/PrefixHeader.pch";
+				INFOPLIST_FILE = "Life Peneal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.tensapp.com.Life-Peneal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35B3F0041CB654FE002CB561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5AC01917CAA46198FC99585 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Life Peneal/PrefixHeader.pch";
+				INFOPLIST_FILE = "Life Peneal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.tensapp.com.Life-Peneal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		35B3F0061CB654FE002CB561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Life PenealTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.tensapp.com.Life-PenealTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life Peneal.app/Life Peneal";
+			};
+			name = Debug;
+		};
+		35B3F0071CB654FE002CB561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Life PenealTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.tensapp.com.Life-PenealTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life Peneal.app/Life Peneal";
+			};
+			name = Release;
+		};
+		35B3F0091CB654FE002CB561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Life PenealUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.tensapp.com.Life-PenealUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Life Peneal";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		35B3F00A1CB654FE002CB561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Life PenealUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.tensapp.com.Life-PenealUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Life Peneal";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35B3EFD01CB654FE002CB561 /* Build configuration list for PBXProject "Life Peneal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B3F0001CB654FE002CB561 /* Debug */,
+				35B3F0011CB654FE002CB561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35B3F0021CB654FE002CB561 /* Build configuration list for PBXNativeTarget "Life Peneal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B3F0031CB654FE002CB561 /* Debug */,
+				35B3F0041CB654FE002CB561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35B3F0051CB654FE002CB561 /* Build configuration list for PBXNativeTarget "Life PenealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B3F0061CB654FE002CB561 /* Debug */,
+				35B3F0071CB654FE002CB561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35B3F0081CB654FE002CB561 /* Build configuration list for PBXNativeTarget "Life PenealUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B3F0091CB654FE002CB561 /* Debug */,
+				35B3F00A1CB654FE002CB561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35B3EFCD1CB654FE002CB561 /* Project object */;
+}
