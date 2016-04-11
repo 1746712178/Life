@@ -1,14 +1,13 @@
 //
-//  QWCollectionView.h
+//  QWBaseResponseModel.m
 //  Life Peneal
 //
 //  Created by tens03 on 16/4/8.
 //  Copyright © 2016年 Wxl. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "QWBaseResponseModel.h"
 
-@interface QWCollectionView : UICollectionView
-
+@implementation QWBaseResponseModel
 
 @end

@@ -2,7 +2,7 @@
 //  PrefixHeader.pch
 //  Life Peneal
 //
-//  Created by tens03 on 16/4/7.
+//  Created by tens03 on 16/4/11.
 //  Copyright © 2016年 Wxl. All rights reserved.
 //
 
@@ -11,10 +11,7 @@
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
-
-
-#import "UIColor+QWAddition.h"
-
+#import "QWAPIMacro.h"
 #import "QWAPPMacro.h"
-
+#import "UIColor+QWAddition.h"
 #endif /* PrefixHeader_pch */

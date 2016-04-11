@@ -7,8 +7,19 @@
 //
 
 #import "QWHomeViewController.h"
+#import "QWTableViewCell.h"
+#import "QWHomeTimeRequest.h"
+#import "QWHomeModel.h"
+#import "QWNetworkManager.h"
+#import "QWArticleModel.h"
+#import <Masonry.h>
 
-@interface QWHomeViewController ()
+static NSString *identifier = @"identifier";
+@interface QWHomeViewController ()<UITableViewDataSource,UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *tabView;
+
+@property (strong, nonatomic) UILabel *dateLable;
+@property (strong, nonatomic) NSMutableArray *dataList;
 
 @end
 
@@ -16,7 +27,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self.tabView registerClass:[QWTableViewCell class] forCellReuseIdentifier:identifier];
+}
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    [self downLoadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +40,70 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
+- (void)downLoadData{
+    
+    QWHomeTimeRequest *request = [[QWHomeTimeRequest alloc] init];
+   // request.id = self.homeModel.id;
+    
+    [[QWNetworkManager shareInstance] homeTimeWithMomel:request comPletionHandler:^(id result, NSError *error) {
+        if (error) {
+            NSLog(@"%@",error);
+            return;
+        }
+        
+      //  NSMutableArray *arry = [NSMutableArray arrayWithArray:result];
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+//        for (int i=0; i<arry.count; i++) {
+//            for (id dic in [arry objectAtIndex:i]) {
+//                NSDictionary *article = [[arry objectAtIndex:i] valueForKey:dic];
+//                NSLog(@"%@",article);
+//        }
+//    }
+     
+        [self.dataList addObjectsFromArray:result];
+        [self.tabView reloadData];
+
+        
+    }];
+    
 }
-*/
+
+#pragma mark - UITableViewDataSource && UITableViewDelegate
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    
+    return self.dataList.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    QWTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
+    
+    return cell;
+}
+  
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+   QWHomeModel *model = self.dataList[indexPath.row];
+    return model.cellHeight;
+}
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+}
+
+#pragma mark Custom Accessors
+-(UILabel *)dateLable{
+    if (_dateLable == nil) {
+        _dateLable = [[UILabel alloc] init];
+    }
+    return _dateLable;
+}
+
+-(NSArray *)dataList{
+    if (_dataList== nil) {
+        _dataList = [NSMutableArray array];
+    }
+    return _dataList;
+}
 
 @end

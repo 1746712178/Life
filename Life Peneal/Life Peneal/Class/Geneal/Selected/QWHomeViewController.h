@@ -7,6 +7,8 @@
 //
 
 #import "QWBaseViewController.h"
+#import "QWHomeModel.h"
+#import "QWHomePictureRequest.h"
 
 @interface QWHomeViewController : QWBaseViewController
 
