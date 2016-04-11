@@ -9,7 +9,6 @@
 #import "QWHomeViewController.h"
 
 @interface QWHomeViewController ()
-@property (weak, nonatomic) IBOutlet UITableView *tabView;
 
 @end
 

@@ -10,6 +10,7 @@
 
 @interface QWExploreViewController ()
 
+
 @end
 
 @implementation QWExploreViewController
@@ -24,14 +25,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
+ 1.获取URL
+ 2.网络请求，ResquestModel 请求 --- 1、请求必须有的参数
+ */
 @end

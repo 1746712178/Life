@@ -28,6 +28,7 @@
 		35B3F02C1CB655EF002CB561 /* QWMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3F0221CB655EF002CB561 /* QWMyViewController.m */; };
 		35B3F02D1CB655EF002CB561 /* QWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3F0251CB655EF002CB561 /* QWHomeViewController.m */; };
 		35B3F0341CB65E0B002CB561 /* UIColor+QWAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3F0331CB65E0B002CB561 /* UIColor+QWAddition.m */; };
+		35F78EFE1CB8A51E009EA9A6 /* QWMyDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F78EFD1CB8A51E009EA9A6 /* QWMyDetailedViewController.m */; };
 		6FFCA93B5DDA6F2518F45227 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BAE4B5086F97A06102520D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +93,8 @@
 		35B3F0301CB65D50002CB561 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		35B3F0321CB65E0B002CB561 /* UIColor+QWAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+QWAddition.h"; sourceTree = "<group>"; };
 		35B3F0331CB65E0B002CB561 /* UIColor+QWAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QWAddition.m"; sourceTree = "<group>"; };
+		35F78EFC1CB8A51E009EA9A6 /* QWMyDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWMyDetailedViewController.h; sourceTree = "<group>"; };
+		35F78EFD1CB8A51E009EA9A6 /* QWMyDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWMyDetailedViewController.m; sourceTree = "<group>"; };
 		7B2DA850749640DD8D4FB386 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A7BAE4B5086F97A06102520D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5AC01917CAA46198FC99585 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -309,6 +312,8 @@
 			children = (
 				35B3F0211CB655EF002CB561 /* QWMyViewController.h */,
 				35B3F0221CB655EF002CB561 /* QWMyViewController.m */,
+				35F78EFC1CB8A51E009EA9A6 /* QWMyDetailedViewController.h */,
+				35F78EFD1CB8A51E009EA9A6 /* QWMyDetailedViewController.m */,
 			);
 			path = My;
 			sourceTree = "<group>";
@@ -567,6 +572,7 @@
 				35B3F02D1CB655EF002CB561 /* QWHomeViewController.m in Sources */,
 				35B3F0271CB655EF002CB561 /* QWBaseViewController.m in Sources */,
 				35B3F02B1CB655EF002CB561 /* QWMainTabBarViewController.m in Sources */,
+				35F78EFE1CB8A51E009EA9A6 /* QWMyDetailedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
