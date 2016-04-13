@@ -12,6 +12,7 @@
 
 static QWNetworkManager *netWorkManager;
 
+
 @implementation QWNetworkManager
 #pragma mark single instance
 +(instancetype)shareInstance
@@ -90,7 +91,7 @@ static QWNetworkManager *netWorkManager;
     
 }
 
-/*
+
 -(void)homePictureWithMomel:(QWBaseModel *)model comPletionHandler:(CompletionHandler)completionhandler{
     
     NSString *urlString = [[KHomePicture absoluteString] stringByAppendingString:[model description]];
@@ -114,6 +115,52 @@ static QWNetworkManager *netWorkManager;
     }];
 
 }
- */
+ 
+-(void)ExSpecialWithMomel:(QWExSpecialModel *)model comPletionHandler:(CompletionHandler)completionhandler{
+    
+    NSURLRequest *request = [NSURLRequest requestWithURL:KSpecialURL];
+    
+    [self sendWithRequest:request completionHandler:^(id result, NSError *error) {
+        if (error) {
+            completionhandler(nil, error);
+            return;
+        }
+        NSMutableArray *arry = [NSMutableArray array];
+        
+        for (NSDictionary *dic in result) {
+            
+            QWExploreModel *model = [[QWExploreModel alloc] initWithObject:dic];
+            [arry addObject:model];
+        }
+        completionhandler(arry,nil);
+    }];
+}
 
+-(void)ExLiferWithMomel:(QWExLiferModel *)model comPletionHandler:(CompletionHandler)completionhandler{
+    NSString *urlString = [[KLiferURL absoluteString] stringByAppendingString:[model description]];
+    
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:urlString]];
+    
+    //NSURLRequest *request = [NSURLRequest requestWithURL:KLiferURL];
+    
+    [self sendWithRequest:request completionHandler:^(id result, NSError *error) {
+        
+        if (error) {
+            completionhandler(nil, error);
+            return;
+        }
+        NSMutableArray *array = [NSMutableArray  array];
+        
+        for (NSDictionary *dic in result) {
+            QWLiferModel *model = [[QWLiferModel alloc] initWithObject:dic];
+            [array addObject:model];
+            
+        }
+        
+        completionhandler(array, nil);
+        
+    }];
+
+    
+}
 @end

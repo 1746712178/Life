@@ -12,4 +12,5 @@
 
 @interface QWHomeViewController : QWBaseViewController
 
+@property (strong, nonatomic) QWHomeModel *homeModel;
 @end

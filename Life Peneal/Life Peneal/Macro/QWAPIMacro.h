@@ -20,6 +20,11 @@
 
 #define KCardURl            baseURL(@"pub/mobile/reg")
 
+#define KSpecialURL         baseURL(@"topic?")
+
+#define KLiferURL           baseURL(@"author/recommend")
+
+
 #endif /* QWAPIMacro_h */
 
 
@@ -28,6 +33,7 @@
  http://7xnqn3.com2.z0.glb.qiniucdn.com/56ffd0617cf7111b0bd8c592
  
  http://7xnqn3.com2.z0.glb.qiniucdn.com/56fcb5be7cf7111b0bd8958c
+ http://7xnqn3.com2.z0.glb.qiniucdn.com/570b5f3d0cc80a799b260c83
  
  1. 首页 GET http://songguolife.com/api/home
  2. 首页详细页 GET  http://songguolife.com/api/article/570689887cf7111b0bd947b3
@@ -38,4 +44,6 @@
  7. 专题 GET http://songguolife.com/api/topic?
  8. 推荐生活家 GET http://songguolife.com/api/author/recommend?count=4&from=0
  9. 分类 GET http://songguolife.com/api/activity?
+ 
+ http://songguolife.com/api/recommend?count = 4&frome = 0
  */

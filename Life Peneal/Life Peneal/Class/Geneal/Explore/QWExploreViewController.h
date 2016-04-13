@@ -7,7 +7,9 @@
 //
 
 #import "QWBaseViewController.h"
+#import "QWExploreModel.h"
 
 @interface QWExploreViewController : QWBaseViewController
 
+@property (strong, nonatomic) QWExploreModel *exploreModel;
 @end

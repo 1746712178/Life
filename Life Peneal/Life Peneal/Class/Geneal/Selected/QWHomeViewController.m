@@ -43,7 +43,7 @@ static NSString *identifier = @"identifier";
 - (void)downLoadData{
     
     QWHomeTimeRequest *request = [[QWHomeTimeRequest alloc] init];
-   // request.id = self.homeModel.id;
+    request.id = self.homeModel.id;
     
     [[QWNetworkManager shareInstance] homeTimeWithMomel:request comPletionHandler:^(id result, NSError *error) {
         if (error) {
@@ -75,29 +75,23 @@ static NSString *identifier = @"identifier";
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-
-    QWTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
     
+    QWTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
     return cell;
 }
   
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-   QWHomeModel *model = self.dataList[indexPath.row];
-    return model.cellHeight;
+    return 250;
 }
 
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
 }
+-(UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
 
-#pragma mark Custom Accessors
--(UILabel *)dateLable{
-    if (_dateLable == nil) {
-        _dateLable = [[UILabel alloc] init];
-    }
-    return _dateLable;
 }
+#pragma mark Custom Accessors
 
 -(NSArray *)dataList{
     if (_dataList== nil) {
